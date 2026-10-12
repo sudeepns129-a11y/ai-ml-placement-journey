@@ -19,3 +19,19 @@ and entry-level roles.
 - NumPy and pandas
 - SQL and statistics
 - Machine Learning
+
+- ## Week 3 Project: Expense Tracker 2.0
+
+Features:
+- Add and view expenses
+- Validate expense amounts
+- Calculate total spending
+- Save expenses using JSON
+- Load saved data after restarting
+
+Concepts learned:
+- Functions
+- Error handling
+- File handling
+- JSON
+- Lists and dictionaries
