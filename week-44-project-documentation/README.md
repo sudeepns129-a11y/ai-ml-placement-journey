@@ -1,0 +1,33 @@
+# Week 44: Project documentation
+
+**Phase:** Phase 10: End-to-end projects and portfolio
+
+**Status:** Planned - not completed.
+
+## Goal
+Finish a README with setup, run commands, results, limitations, and citations
+
+## What you will learn
+This week breaks a larger subject into five small steps. Work through one idea at a time, write down examples in your own words, and test your understanding with the exercises. A plan or starter file is not evidence of mastery.
+
+- Problem and audience
+- setup
+- data/source and license
+- methods
+- evaluation; limitations; screenshots/demo
+
+## Before you begin
+Weeks 41-43: working project and portfolio draft
+
+If a prerequisite is rusty, revisit the linked earlier week first. New optional libraries are installed only when needed; this week's future dependencies are not part of the current root requirements.
+
+## Suggested pace
+Use the five-day plan in [learning-plan.md](learning-plan.md). About 45-90 focused minutes per day is a starting point, not a deadline. Take a catch-up day if needed.
+
+## Resources
+[GitHub: Writing on GitHub](https://docs.github.com/en/get-started/writing-on-github)
+
+Read actively: close the page and explain one idea in your own words. External datasets, if used, must be public, appropriately licensed, non-sensitive, and credited. The Week 24 student prediction exercise must use synthetic records only.
+
+## Finish line
+Complete the checklist in [progress.md](progress.md), save the small deliverable described under [projects/](projects/README.md), and answer the questions in [revision.md](revision.md) without copying an answer. If you cannot explain a step, mark it as a gap and practise it again.

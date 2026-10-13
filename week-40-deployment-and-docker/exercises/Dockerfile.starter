@@ -1,0 +1,4 @@
+# TODO: choose a small, maintained Python base image.
+# TODO: copy dependency files before application code where practical.
+# TODO: install only the application's declared dependencies.
+# TODO: expose and run the API, then test the health endpoint in a container.

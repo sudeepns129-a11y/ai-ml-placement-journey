@@ -1,0 +1,4 @@
+-- Use a disposable local SQLite database with the small tables described in README.md.
+-- TODO 1: select only the requested columns and filter the rows.
+-- TODO 2: group rows and calculate an aggregate.
+-- TODO 3: join the tables and check whether keys create duplicate rows.
