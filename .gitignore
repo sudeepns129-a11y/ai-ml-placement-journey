@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+expenses.json
+week-01-02-python-basics/personal_details.py
+week-01-02-python-basics/dictionary_practice.py

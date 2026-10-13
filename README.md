@@ -1,145 +1,96 @@
-# 💰 Python Expense Tracker 2.0
+# AI/ML Placement Journey
 
-A beginner-friendly Python project that helps users record expenses, view saved expenses, and calculate total spending. This project uses JSON to store expense data, so the information remains available even after the program is closed and restarted.
+## Project goal
 
-## 🎯 Project Objective
+This repository contains beginner-level exercises and small projects created while preparing for an AI/ML engineering placement. The roadmap builds from Python fundamentals to introductory NumPy and pandas work. A script is a record of practice, not a claim of mastery.
 
-The goal of this project is to improve my Python programming skills by building a practical, menu-driven application with data persistence and error handling.
+## Learning roadmap
 
-## ✨ Features
+- **Weeks 1–2 — Python fundamentals:** small programs and challenges covering input, variables, conditions, loops, strings, lists, dictionaries, functions, modules, and basic error handling.
+- **Week 3 — Python projects:** a command-line calculator, a file-handling exercise, and Expense Tracker 2.0, which saves expenses in a local JSON file.
+- **Week 4 — NumPy and pandas:** array creation and calculations, filtering, basic DataFrame operations, reading a sample CSV, and a student-data analysis that writes a CSV report.
 
-- **Add Expenses:** Enter an expense amount and category.
-- **View Expenses:** Display all saved expenses with their categories and amounts.
-- **Calculate Total:** Calculate the total amount spent.
-- **Save Data:** Store expenses in a JSON file.
-- **Load Data:** Load previously saved expenses when the program starts.
-- **Input Validation:** Handle invalid amounts and reject zero or negative expenses.
-- **Category Validation:** Prevent empty expense categories.
-- **Error Handling:** Handle invalid numeric input and file-reading errors.
-- **Menu-Driven Interface:** Choose actions using a simple command-line menu.
-- **Persistent Storage:** Keep expenses saved between program runs.
-
-## 🛠️ Technologies Used
-
-- Python 3
-- JSON
-- `pathlib` module
-- Exception handling
-- Functions and loops
-- Lists and dictionaries
-- File handling
-
-## 📁 Project Structure
+## Folder structure
 
 ```text
 ai-ml-placement-journey/
-├── expense_tracker_v2.py
-├── expenses.json
-└── README.md
+|-- README.md
+|-- requirements.txt
+|-- .gitignore
+|-- week-01-02-python-basics/
+|   |-- main.py
+|   |-- even_odd.py
+|   |-- largest_number.py
+|   |-- multiplication_table.py
+|   |-- expense_tracker.py
+|   |-- challenge1.py ... challenge5.py
+|   |-- error_handling.py
+|   |-- lists_practice.py
+|   |-- modules_practice.py
+|   `-- strings_practice.py
+|-- week-03-python-projects/
+|   |-- calculator.py
+|   |-- file_handling.py
+|   |-- notes.txt
+|   |-- expense_tracker_v2.py
+|   `-- expenses.json (local data; ignored by Git)
+|-- week-04-numpy/
+|   |-- numpy_day1.py ... numpy_day5.py
+|   |-- numpy_filter.py
+|   |-- student_marks.py
+|   `-- student_marks_analyzer.py
+`-- week-04-pandas/
+    |-- pandas_day1.py ... pandas_day4.py
+    |-- students.csv
+    |-- student_data_analysis.py
+    `-- student_analysis.csv
 ```
 
-**Note:** `expenses.json` is created automatically when expenses are saved. Do not upload real personal financial data to a public repository.
+## Setup on Windows
 
-## 🚀 How to Run the Project
+Open PowerShell in the repository folder. Check that Python is available with `python --version` (or use `py` instead of `python` if that is the command installed on your computer). Install the project dependencies with:
 
-### 1. Install Python
-
-Install Python 3 from the official website:
-
-https://www.python.org/downloads/
-
-### 2. Clone the Repository
-
-Open your terminal and run:
-
-```bash
-git clone https://github.com/sudeepns129-a11y/ai-ml-placement-journey.git
+```powershell
+python -m pip install -r requirements.txt
 ```
 
-### 3. Open the Project Folder
+## Run example scripts
 
-```bash
-cd ai-ml-placement-journey
+Run commands from the repository root. For example:
+
+```powershell
+python .\week-01-02-python-basics\even_odd.py
+python .\week-03-python-projects\calculator.py
+python .\week-03-python-projects\expense_tracker_v2.py
+python .\week-04-numpy\numpy_day1.py
+python .\week-04-pandas\pandas_day3.py
+python .\week-04-pandas\student_data_analysis.py
 ```
 
-### 4. Run the Expense Tracker
+The scripts that ask for input will prompt in the terminal. `pandas_day3.py` reads the sample `students.csv` in its own folder. `student_data_analysis.py` writes `student_analysis.csv` beside that script.
 
-```bash
-python expense_tracker_v2.py
-```
+Expense Tracker 2.0 stores its data in `week-03-python-projects\expenses.json`. This file is ignored by Git so local expense details are not added to commits. Keep a backup if the data matters to you.
 
-If the `python` command does not work on Windows, try:
+The local-only `personal_details.py` and `dictionary_practice.py` exercises contain personal details and are excluded from the public repository by `.gitignore`.
 
-```bash
-py expense_tracker_v2.py
-```
+## Concepts practised
 
-## 📖 How to Use
+- Python values, input, type conversion, conditions, loops, and functions
+- Strings, lists, dictionaries, imports, and basic exception handling
+- Reading and writing text and JSON files
+- NumPy arrays, arithmetic, filtering, summary statistics, and sorting
+- pandas DataFrames, CSV input/output, filtering, sorting, and summary operations
 
-When you run the program, a menu appears:
+## Projects completed or started
 
-```text
-=== Expense Tracker ===
-1. Add expense
-2. View expenses
-3. Show total spending
-4. Exit
-```
+- **Expense Tracker:** a short exercise that totals three entered expenses.
+- **Expense Tracker 2.0:** a menu-based program for adding, viewing, and totaling expenses saved as JSON.
+- **Calculator:** performs basic arithmetic on two entered numbers.
+- **Student-data exercises:** create and inspect small sample datasets, calculate marks summaries, and save an analysis CSV.
+- **File handling:** writes and reads a short learning note.
 
-- Enter `1` to add an expense.
-- Enter `2` to view all saved expenses.
-- Enter `3` to calculate total spending.
-- Enter `4` to exit the program.
+These are learning exercises and small command-line projects; they are not complete production applications.
 
-The program validates the input and saves valid expenses in `expenses.json`.
+## Future learning goals
 
-## 🧠 Python Concepts Learned
-
-Through this project, I practised:
-
-- Variables and data types
-- User input using `input()`
-- Type conversion using `float()`
-- Conditional statements (`if`, `elif`, `else`)
-- Loops using `while`
-- Lists and dictionaries
-- Functions and function parameters
-- File handling using `open()`
-- JSON data storage using `json`
-- Exception handling using `try` and `except`
-- Working with file paths using `pathlib`
-- Calculating totals using `sum()`
-- Iterating through lists using `enumerate()`
-- Organizing code using the `main()` function
-
-## 🧪 Testing
-
-The following tests have been completed:
-
-- Added an expense successfully.
-- Viewed saved expenses.
-- Calculated the total spending.
-- Tested invalid expense amounts.
-- Verified that expenses persist after restarting the program.
-
-Additional checks include empty categories, invalid menu choices, and file-reading error handling.
-
-## 🔮 Future Improvements
-
-- Add expense dates.
-- Filter expenses by category.
-- Display monthly spending summaries.
-- Set a monthly budget and show remaining balance.
-- Export expense reports to CSV.
-- Add a graphical user interface.
-- Build a web version using React and a Python backend.
-
-## 👨‍💻 About This Project
-
-This project is part of my **AI/ML Engineer Placement Preparation Journey**. I am building practical projects to strengthen my Python fundamentals, problem-solving skills, and software development experience.
-
-**GitHub:** https://github.com/sudeepns129-a11y/ai-ml-placement-journey
-
----
-
-*Built with Python as part of my continuous learning journey toward becoming an AI/ML Engineer.*
+Continue with statistics and probability, then introductory machine learning. After that, build practical AI/ML projects using real-world datasets and document how each model is evaluated.
