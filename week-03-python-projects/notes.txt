@@ -1,0 +1,2 @@
+I am learning Python for AI/ML.
+My goal is to become an AI/ML Engineer.
